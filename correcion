@@ -1,0 +1,13 @@
+0 - cuenta testlodge	4	4	
+1 - introducción ( 7 ppipios)	4	4	
+2 - tipos pruebas esquema / definicion tipos (1 diapo por cada) / coste prueba por nivel/ coste por fase	8	8	
+3 - definicion / principios /ventajas 	6	6	
+4 - plan pruebas	6	6	
+5 - doc requisitos	4	4	
+6 - unitarias	18	13	la descripción de las pruebas es correcta, os faltan algunos casos importantes: en añadir jugador en nombre tenéis que probar además de mayor de 20 carácteres, tenéis que probar los campos limites, es decir igual a 20 e igual a 4, y también menor a 4. La edad además del número mínimo menor a 18, tenéis que probar un caso correcto, es decir que igual a 18 si que os lo acepta, en idioma os faltaría añadir probar con un campo de idioma no válido, en añadir equipo os falta valor menor al límite, es decir menor a 4, y mayor a 20. En ranking además de los valores límites 0 y 10 deberiais probar menor a 0 y mayor a 10 para ver que no permite introducir valores fuera de ese rango. El de asignar equipo si está completa, aunque os sobrarían algunas, porque al comprobar que el jugador exista, ya se asume que para que exista debe tener todos sus campos válidos porque sino no se podría guardar.
+7 - aceptación	15	14	esta bien y completas en general
+8 - regresión	12	12	bien elegidas las más principales
+9 - implementación formularios	15	15	
+10 - proyecto java	6	6	
+11 - ejecución pruebas	12	12	están bien ejecutadas con las capturas incluidas y descripción 
+	110	104	
